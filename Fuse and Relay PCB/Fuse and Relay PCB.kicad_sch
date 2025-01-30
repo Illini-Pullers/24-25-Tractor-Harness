@@ -1994,6 +1994,12 @@
 		(uuid "0e3211dc-923f-462b-8e43-bd5be1e46e8d")
 	)
 	(junction
+		(at 99.06 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "353c9af0-4530-417b-8090-77aa38ca02cb")
+	)
+	(junction
 		(at 135.89 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2006,16 +2012,16 @@
 		(uuid "3f4d03d8-c7e9-4846-b5bb-000eb7fbe130")
 	)
 	(junction
+		(at 101.6 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "400602e3-1105-47ea-91d4-9f5ba54e4f18")
+	)
+	(junction
 		(at 101.6 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f15651c-d7c1-4981-abb7-36ff07b2392d")
-	)
-	(junction
-		(at 101.6 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "569c3968-459d-437f-ad16-d1eb9fe35acc")
 	)
 	(junction
 		(at 99.06 102.87)
@@ -2034,12 +2040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63c48158-12d3-4d77-878a-572cc29e242f")
-	)
-	(junction
-		(at 73.66 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79241161-fe2b-4913-8edc-f09745ad9864")
 	)
 	(junction
 		(at 135.89 62.23)
@@ -2109,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 99.06 102.87)
+			(xy 99.06 73.66) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2176,6 +2176,16 @@
 			(type default)
 		)
 		(uuid "21986231-77b5-42a7-9469-a88a879cc4da")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d6f433-286e-4561-8e41-360a1454141b")
 	)
 	(wire
 		(pts
@@ -2469,16 +2479,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 90.17) (xy 101.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9570ccbd-f513-4a49-ab9a-b2ce4e796c00")
-	)
-	(wire
-		(pts
 			(xy 101.6 45.72) (xy 102.87 45.72)
 		)
 		(stroke
@@ -2616,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "c4dac560-0718-4fb2-b635-e3ba194aea0c")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c793b3e9-2f9a-4928-8353-34576b97c3c0")
 	)
 	(wire
 		(pts
@@ -2806,7 +2816,7 @@
 		)
 		(uuid "3baf7eb9-fd4a-444f-9189-f9fffa5e98b3")
 	)
-	(text_box "1: 5V OUT\n2: J2 SIGNAL (KEYSWITCH)\n3: J3 SIGNAL\n4: J4 SIGNAL\n5: J5 SIGNAL\n6: J2 OUT\n7: J2 OUT\n8: J2 OUT\n9: J2 OUT\n10: J3 OUT\n11: J4 OUT\n12: J5 OUT"
+	(text_box "1: 5V OUT VIA J2 RELAY\n2: J2 SIGNAL (KEYSWITCH)\n3: J3 SIGNAL\n4: J4 SIGNAL\n5: J5 SIGNAL\n6: J2 OUT\n7: J2 OUT\n8: J2 OUT\n9: J2 OUT\n10: J3 OUT\n11: J4 OUT\n12: J5 OUT"
 		(exclude_from_sim no)
 		(at 218.44 90.17 0)
 		(size 36.83 26.67)
